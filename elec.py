@@ -27,7 +27,7 @@ for file_line in lines:
     tm.append(file_line[0:11])
     je.append(float(file_line[-6:]))
 line = (
-    Line(init_opts=opts.InitOpts(page_title='电费使用情况')
+    Line(init_opts=opts.InitOpts(page_title='电费使用情况'))
     .add_xaxis(tm)
     .add_yaxis("612",je, is_smooth=True)
     .set_global_opts(title_opts=opts.TitleOpts(title='电费使用情况'))
