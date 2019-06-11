@@ -1,1 +1,3 @@
-# electriciryfee_display
+# 王天速速关空调
+***
+### 一个半自动的电费历史记录程序
