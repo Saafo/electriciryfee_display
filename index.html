@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="584fffd0a38a4d76b8b08beaf8129ebf" style="width:900px; height:500px;"></div>
+    <div id="5d0586fb57814147b97ed045cc1d2154" style="width:900px; height:500px;"></div>
     <script>
-        var chart_584fffd0a38a4d76b8b08beaf8129ebf = echarts.init(
-            document.getElementById('584fffd0a38a4d76b8b08beaf8129ebf'), 'white', {renderer: 'canvas'});
-        var option_584fffd0a38a4d76b8b08beaf8129ebf = {
+        var chart_5d0586fb57814147b97ed045cc1d2154 = echarts.init(
+            document.getElementById('5d0586fb57814147b97ed045cc1d2154'), 'white', {renderer: 'canvas'});
+        var option_5d0586fb57814147b97ed045cc1d2154 = {
     "color": [
         "#c23531",
         "#2f4554",
@@ -42,6 +42,7 @@
         {
             "type": "line",
             "name": "612",
+            "connectNulls": false,
             "symbolSize": 4,
             "showSymbol": true,
             "smooth": true,
@@ -86,13 +87,16 @@
                 [
                     "06-14 22:45",
                     23.54
+                ],
+                [
+                    "06-15 12:50",
+                    22.99
                 ]
             ],
             "label": {
                 "show": true,
                 "position": "top",
-                "margin": 8,
-                "fontSize": 12
+                "margin": 8
             },
             "lineStyle": {
                 "width": 1,
@@ -128,28 +132,6 @@
         },
         "borderWidth": 0
     },
-    "yAxis": [
-        {
-            "show": true,
-            "scale": false,
-            "nameLocation": "end",
-            "nameGap": 15,
-            "gridIndex": 0,
-            "inverse": false,
-            "offset": 0,
-            "splitNumber": 5,
-            "minInterval": 0,
-            "splitLine": {
-                "show": false,
-                "lineStyle": {
-                    "width": 1,
-                    "opacity": 1,
-                    "curveness": 0,
-                    "type": "solid"
-                }
-            }
-        }
-    ],
     "xAxis": [
         {
             "show": true,
@@ -180,8 +162,31 @@
                 "06-13 23:00",
                 "06-14 12:50",
                 "06-14 13:09",
-                "06-14 22:45"
+                "06-14 22:45",
+                "06-15 12:50"
             ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
         }
     ],
     "title": [
@@ -190,7 +195,7 @@
         }
     ]
 };
-        chart_584fffd0a38a4d76b8b08beaf8129ebf.setOption(option_584fffd0a38a4d76b8b08beaf8129ebf);
+        chart_5d0586fb57814147b97ed045cc1d2154.setOption(option_5d0586fb57814147b97ed045cc1d2154);
     </script>
 </body>
 </html>
