@@ -20,7 +20,7 @@ f2 = open('120612.txt','r')
 lines = f2.readlines()
 f2.close()
 if len(lines) > 15:
-    lines = lines[-16:]
+    lines = lines[-15:]
 tm = []
 je = []
 for file_line in lines:
