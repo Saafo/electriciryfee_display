@@ -4,7 +4,7 @@ import time
 
 from pyecharts.charts import Line
 from pyecharts import options as opts
-url = 'http://wx.uestc.edu.cn/oneCartoon/list'
+url = 'http://wx.uestc.edu.cn/power/oneCartoon/list'
 body = {'roomCode': '120612'}
 response = requests.post(url,data = body)
 raw_dic = json.loads(response.text)
