@@ -24,7 +24,7 @@ if len(lines) > 15:
 tm = []
 je = []
 for file_line in lines:
-    tm.append(file_line[0:11])
+    tm.append(file_line[0:5])
     je.append(float(file_line[-6:]))
 line = (
     Line(init_opts=opts.InitOpts(page_title='电费使用情况'))
